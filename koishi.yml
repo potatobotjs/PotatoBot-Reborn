@@ -1,14 +1,29 @@
-port: 5140
-maxPort: 5149
-
+port: 8080
+maxPort: 8089
+autoAssign: true
+autoAuthorize: 1
 plugins:
-  help:
-  suggest:
+  potato-core:
+    logGroupNumber: '135694464'
+  help: null
+  suggest: null
   console:
     open: true
-  logger:
+  logger: null
   market:
     search:
       endpoint: ${{ env.GITHUB_CONTENT_MIRROR }}/koishijs/registry/dist/index.json
-  status:
-  sandbox:
+  status: null
+  sandbox: null
+  database-sqlite: {}
+  adapter-onebot:
+    protocol: ws-reverse
+    selfId: '1520389306'
+  repeater:
+    onRepeat:
+      probability: 0.5
+      minTimes: 2
+  dataview: {}
+  maimai-maibot:
+    shell: python.exe
+    name: 土豆
