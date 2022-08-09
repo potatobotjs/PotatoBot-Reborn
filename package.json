@@ -1,4 +1,4 @@
-{
+
   "name": "@koishijs/boilerplate",
   "version": "0.0.0",
   "private": true,
@@ -59,6 +59,7 @@
     "@koishijs/plugin-status": "^6.0.2",
     "@koishijs/plugin-suggest": "^1.1.1",
     "koishi": "^4.8.2",
+    "koishi-plugin-maimai-potato": "^1.0.2",
     "ts-md5": "^1.2.11"
   }
 }

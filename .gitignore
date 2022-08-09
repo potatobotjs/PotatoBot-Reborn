@@ -22,4 +22,3 @@ tsconfig.tsbuildinfo
 *.db
 
 package-lock.json
-

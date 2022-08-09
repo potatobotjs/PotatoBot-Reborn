@@ -1,0 +1,3 @@
+[submodule "plugins/potato-core"]
+	path = plugins/potato-core
+	url = git@github.com:potatobotjs/koishi-plugin-potato-core.git

@@ -24,6 +24,6 @@ plugins:
       probability: 0.5
       minTimes: 2
   dataview: {}
-  maimai-maibot:
+  maimai-potato:
     shell: python.exe
     name: 土豆
